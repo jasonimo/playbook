@@ -2,6 +2,6 @@
 # Command: ansible-playbook test.yml
 ---
 - hosts: all
-  gather_facts: False
+  gather_facts: True
   tasks:
   - debug: msg="Ansible is working!"
