@@ -3,6 +3,7 @@
 - name: Add User
   hosts: all
   become: true
+  gather_facts: no
   tasks:
     - name: Create User Name
       user:
