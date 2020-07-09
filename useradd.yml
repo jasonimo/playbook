@@ -2,8 +2,8 @@
 ---
 - name: Add User
   hosts: all
-  become: true
   gather_facts: no
+  become: true
   tasks:
     - name: Create User Name
       user:
